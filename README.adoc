@@ -30,7 +30,7 @@ go get -u github.com/snt/dump1090-protobuf-go
 ----
 import (
     // ...
-    "github.com/snt/dump1090-protobuf-go/adsb"
+    adsb "github.com/snt/dump1090-protobuf-go"
     // ...
 )
 ----
