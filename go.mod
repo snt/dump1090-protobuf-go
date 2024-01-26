@@ -1,4 +1,4 @@
-module dump1090-protobuf-go
+module github.com/snt/dump1090-protobuf-go
 
 go 1.21.6
 
