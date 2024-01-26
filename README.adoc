@@ -19,9 +19,10 @@ go generate ./build
 
 `go get` the module.
 
-```sh
+[source,sh]
+----
 go get -u github.com/snt/dump1090-protobuf-go
-```
+----
 
 `import` it.
 
