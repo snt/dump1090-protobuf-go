@@ -1,10 +1,14 @@
 = dump1090-protobuf-go
-:source-highlighter: highlight.js
+:experimental:
+:toc: left
+:icons: font
+:autofit-option:
+:source-highlighter: rouge
+:rouge-style: github
 
 == Generate `.pb.go`
 
-[source,shell]
+[source,shellscript]
 ----
 go generate ./build
 ----
-
