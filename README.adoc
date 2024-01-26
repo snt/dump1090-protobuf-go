@@ -1,0 +1,10 @@
+= dump1090-protobuf-go
+:source-highlighter: highlight.js
+
+== Generate `.pb.go`
+
+[source,shell]
+----
+go generate ./build
+----
+
