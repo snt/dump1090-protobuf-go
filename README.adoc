@@ -6,9 +6,30 @@
 :source-highlighter: rouge
 :rouge-style: github
 
+Protobuf generated code of https://github.com/snt/dump1090-protobuf[snt/dump1090-protobuf].
+
 == Generate `.pb.go`
 
 [source,shellscript]
 ----
 go generate ./build
+----
+
+== Usage
+
+`go get` the module.
+
+```sh
+go get -u github.com/snt/dump1090-protobuf-go
+```
+
+`import` it.
+
+[source,golang]
+----
+import (
+    // ...
+    "github.com/snt/dump1090-protobuf-go/adsb"
+    // ...
+)
 ----
